@@ -1,16 +1,20 @@
 ---
 title: Model Insights
-description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
+description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Marketing Campaign Analytics.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
+TQID: 'https://experienceleague.adobe.com/zoUwqJXQ0z2ttUwvF1cn5ukSvn8-Cxhpv5lXlWENkQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -20,16 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
+source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3099'
 ht-degree: 11%
 ---
 # Informations sur le modèle
+
+{{mm-mca-rebranding}}
 
 Chaque visualisation d’informations sur le modèle est conçue pour vous aider à :
 
@@ -39,12 +47,11 @@ Chaque visualisation d’informations sur le modèle est conçue pour vous aider
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) dans [!DNL Mix Modeler] :
+Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) dans [!DNL Marketing Campaign Analytics] :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Model Insights]**.
-
 
 
 Les onglets suivants sont disponibles :
@@ -55,6 +62,8 @@ Les onglets suivants sont disponibles :
 * [Attribution](#attribution) (uniquement pour les modèles compatibles avec le MTA)
 * [Diagnostic](#diagnostics)
 * [Aperçu de l’historique](#historical-overview).
+
+Si la [modélisation funnel complète](./overview.md#full-funnel-modeling) est activée pour le modèle, sélectionnez l’étape funnel (**[!UICONTROL Upper funnel]**, **[!UICONTROL Lower funnel]**, **[!UICONTROL Full funnel]**) dans le menu déroulant **[!UICONTROL Funnel stage]** pour laquelle vous souhaitez afficher des informations sur le modèle.
 
 Vous pouvez modifier la période sur laquelle les visualisations de chacun des onglets sont basées. Saisissez une période ou sélectionnez ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
@@ -126,6 +135,25 @@ Pour modifier le canal :
 
 * Sélectionnez un canal dans le menu déroulant **[!UICONTROL Channel]** pour mettre à jour la visualisation d’un canal spécifique.
 
+## Flux funnel
+
+{{release-limited-testing-section}}
+
+Si la [modélisation funnel complète](./overview.md#full-funnel-modeling) est activée pour le modèle et que vous avez sélectionné funnel complète dans le menu déroulant Étape de Funnel, une visualisation de flux Funnel est disponible.
+
+>[!BEGINTABS]
+
+>[!TAB Flux ]
+
+![Flux &#x200B;](/help/assets/model-funnel-flow.png)
+
+>[!TAB Pointez sur le flux funnel]
+
+![Planifier de canaliser toutes les synergies](/help/assets/model-funnel-flow-hover.png)
+
+>[!ENDTABS]
+
+Pointez sur un flux pour afficher une fenêtre contextuelle contenant plus de détails sur le flux funnel spécifique.
 
 ### Répartition des points de contact
 
@@ -163,16 +191,21 @@ La matrice de carte thermique fournit une représentation visuelle des valeurs d
 
 Ce cadre de plus-value offre une mesure réaliste de la force relative de la synergie, car il tient compte des conditions de dépenses réelles dans les données de formation et permet ainsi de prendre des décisions d’optimisation plus éclairées.
 
+Si la [modélisation funnel complète](./overview.md#full-funnel-modeling) est activée pour le modèle, une visualisation s’affiche pour les synergies de canal funnel supérieure et pour les synergies de canal funnel inférieure.
 
 >[!BEGINTABS]
 
->[!TAB Afficher moins de synergies]
+>[!TAB Afficher moins de synergies de canal]
 
-![Planifier les synergies de canaux](/help/assets/model-channel-synergies-less.png)
+![Planifier les synergies sans canal](/help/assets/model-channel-synergies-less.png)
 
->[!TAB Afficher toutes les synergies]
+>[!TAB Afficher toutes les synergies de canal]
 
-![Planifier les synergies de canaux](/help/assets/model-channel-synergies-all.png)
+![Planifier de canaliser toutes les synergies](/help/assets/model-channel-synergies-all.png)
+
+>[!TAB synergies ]
+
+![Planifier les synergies entre les funnel de canal](/help/assets/model-channel-synergies-funnel.png)
 
 >[!ENDTABS]
 
@@ -210,6 +243,7 @@ Les canaux dont les courbes de décroissance sont plus lentes (traînées plus l
 
 >[!ENDTABS]
 
+* Si la [modélisation funnel complète](./overview.md#full-funnel-modeling) est activée pour le modèle, sélectionnez funnel supérieure ou funnel inférieure dans le menu déroulant Étape Funnel.
 * Pour afficher des visualisations d’annonce publicitaire pour des **[!UICONTROL All channels]** ou une visualisation d’annonce publicitaire pour un canal individuel (par exemple, **[!UICONTROL Paid Social Facebook]**), sélectionnez dans le menu déroulant **[!UICONTROL Channel]**.
 
 
@@ -258,7 +292,7 @@ Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’effic
 
 Les modèles d’attribution suivants sont pris en charge :
 
-* En fonction du modèle sélectionné dans [!DNL Mix Modeler] :
+* En fonction du modèle sélectionné dans [!DNL Marketing Campaign Analytics] :
   * Algorithmique - influencé
   * Algorithmique - incrémentiel
 * Basé sur des règles :
@@ -268,13 +302,13 @@ Les modèles d’attribution suivants sont pris en charge :
   * Linéaire
   * Ushape
 
-Consultez [Attribution multipoint](../get-started/about.md#multi-touch-attribution) pour une introduction sur la fonctionnalité d’attribution multipoint dans [!DNL Mix Modeler].
+Consultez [Attribution multipoint](../get-started/about.md#multi-touch-attribution) pour une introduction sur la fonctionnalité d’attribution multipoint dans [!DNL Marketing Campaign Analytics].
 
 Sélectionnez un ou plusieurs modèles d’attribution dans le menu déroulant **[!UICONTROL Attribution Model]** . Les modèles d’attribution sélectionnés s’appliquent à toutes les visualisations dans l’onglet Attribution.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Les scores d’événement granulaire d’attribution multipoint Mix Modeler s’alignent sur les scores globaux de [!DNL Mix Modeler] et les RSI. Ces scores sont également disponibles sous forme de jeux de données dans Experience Platform.
+Les scores d’événement granulaire d’attribution multipoint Marketing Campaign Analytics s’alignent sur les scores globaux de [!DNL Marketing Campaign Analytics] et les RSI. Ces scores sont également disponibles sous forme de jeux de données dans Experience Platform.
 
 L’onglet Attribution comprend les visualisations suivantes :
 
@@ -420,8 +454,8 @@ L’onglet **[!UICONTROL Diagnostics]** affiche les visualisations pour :
   * **[!UICONTROL Training R<sup>2</sup>]** : indique la proportion de variance des valeurs réelles expliquées par les prédictions du modèle, allant de 0 à 1.
   * **[!UICONTROL Training sMAPE]** (erreur en pourcentage absolu moyen symétrique) : mesure l’erreur en pourcentage moyen sur les données d’identification. Des valeurs plus faibles indiquent une meilleure précision.
   * **[!UICONTROL Training RMSE]** (erreur quadratique moyenne racine) : mesure l’erreur moyenne en pourcentage sur les données d’identification. Pénalise les erreurs plus importantes que la MAPE. Une RMSE plus faible suggère une meilleure précision prédictive, mais est sensible aux valeurs aberrantes.
-  * **[!UICONTROL Out-of-sample sMAPE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, Mix Modeler évalue le pourcentage d’erreur en utilisant le dernier trimestre des données d’identification comme ensemble d’exclusions.
-  * **[!UICONTROL Out-of-sample RMSE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, [!DNL Mix Modeler] évalue le pourcentage d’erreur en utilisant le dernier trimestre des données de formation comme ensemble d’exclusions. Le RMSE pénalise plus les erreurs plus importantes que le MAPE.
+  * **[!UICONTROL Out-of-sample sMAPE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, Marketing Campaign Analytics évalue le pourcentage d’erreur en utilisant le dernier trimestre des données d’identification comme ensemble d’exclusions.
+  * **[!UICONTROL Out-of-sample RMSE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, [!DNL Marketing Campaign Analytics] évalue le pourcentage d’erreur en utilisant le dernier trimestre des données de formation comme ensemble d’exclusions. Le RMSE pénalise plus les erreurs plus importantes que le MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]** tableau, représentant le résultat du modèle algorithmique de l’IA dédiée à l’attribution.
@@ -441,7 +475,7 @@ L’onglet **[!UICONTROL Diagnostics]** affiche les visualisations pour :
 
 >[!AVAILABILITY]
 >
->La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note est supprimée lorsque la fonctionnalité est disponible. Pour plus d’informations sur le processus de publication de [!DNL Mix Modeler], consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
+>La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note est supprimée lorsque la fonctionnalité est disponible. Pour plus d’informations sur le processus de publication de [!DNL Marketing Campaign Analytics], consultez [Versions des fonctionnalités de Marketing Campaign Analytics](/help/releases/latest.md).
 >
 
 Si une dérive du modèle est détectée, une notification **[!UICONTROL Model drift detected]** s’affiche en haut de l’écran.

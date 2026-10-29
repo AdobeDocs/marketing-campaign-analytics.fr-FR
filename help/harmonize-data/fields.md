@@ -1,28 +1,34 @@
 ---
 title: Champs harmonisés
-description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
+description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Marketing Campaign Analytics.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:17.577Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '694'
 ht-degree: 11%
-
 ---
-
 # Champs harmonisés
+
+{{mm-mca-rebranding}}
 
 Les champs harmonisés vous permettent de définir des champs pour des données conceptuellement identiques, provenant de différentes sources, chacune ayant sa propre définition de ces données. Par exemple, une mesure clics peut être définie et nommée différemment en fonction de la source des données. Un champ harmonisé de clics vous permet de définir une nomenclature commune pour une mesure de clics en fonction de ces différentes sources de données de clics.
 
@@ -30,7 +36,7 @@ Les champs harmonisés vous permettent de définir les champs à utiliser dans l
 
 ## Champs d’harmonisation globale
 
-Les champs d’harmonisation globale disponibles par défaut dans Mix Modeler sont les suivants :
+Les champs d’harmonisation globale disponibles par défaut dans Marketing Campaign Analytics sont les suivants :
 
 
 | Nom du champ | Nom d’affichage | Catégorie | Type de données | Commentaire |
@@ -65,7 +71,7 @@ Vous pouvez ajouter, modifier ou supprimer vos propres champs harmonisés en plu
 
 ## Gestion des champs harmonisés
 
-Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Mix Modeler :
+Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -91,7 +97,7 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
 
 ### Ajouter un champ harmonisé
 
-Pour ajouter un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler :
+Pour ajouter un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
@@ -117,7 +123,7 @@ Pour ajouter un champ harmonisé, dans l’interface ![DataSearch](/help/assets/
 
 Vous pouvez uniquement modifier les champs harmonisés que vous avez créés précédemment (le propriétaire est le client). Vous ne pouvez pas modifier un champ harmonisé global.
 
-Pour modifier un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler :
+Pour modifier un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics :
 
 1. Sélectionnez le champ harmonisé à modifier. Par exemple : **[!UICONTROL Region]**.
 
@@ -131,7 +137,7 @@ Pour modifier un champ harmonisé, dans l’interface ![DataSearch](/help/assets
 
 Vous ne pouvez supprimer que les champs harmonisés que vous avez créés précédemment (le propriétaire est le client). Vous ne pouvez pas supprimer un champ harmonisé global.
 
-Pour supprimer un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler :
+Pour supprimer un champ harmonisé, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics :
 
 1. Sélectionnez le champ harmonisé à supprimer, par exemple **[!UICONTROL Region]**.
 

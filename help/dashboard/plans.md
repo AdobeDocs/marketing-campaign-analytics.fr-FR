@@ -1,13 +1,13 @@
 ---
 title: Performances à planifier
-description: Découvrez comment utiliser la fonction Performances pour planifier la vue d’ensemble dans Mix Modeler.
+description: Découvrez comment utiliser la fonction Performances pour planifier la vue d’ensemble dans Marketing Campaign Analytics.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,24 +29,33 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 ---
 # Performances à planifier
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->L’onglet **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonctionnalité en version bêta et ses fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
+>L’onglet **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} dans Marketing Campaign Analytics ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonctionnalité en version bêta et ses fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
 
-L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fournit un tableau de bord de suivi pour surveiller les performances de votre marketing par rapport au plan. Vous pouvez comparer les performances réelles aux performances prévues à l’aide de cartes de statut et de visualisations.
+L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} dans Marketing Campaign Analytics ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fournit un tableau de bord de suivi pour surveiller les performances de votre marketing par rapport au plan. Vous pouvez comparer les performances réelles aux performances prévues à l’aide de cartes de statut et de visualisations.
 
 Le tableau de bord vous aide à cerner les lacunes, à repérer les risques ou les occasions et à apporter des ajustements opportuns à vos plans et budgets.
 
 Pour sélectionner les données affichées pour les cartes de statut des indicateurs de performance clés et les visualisations :
 
-* Sélectionnez un plan dans le menu déroulant **[!UICONTROL Plan name]** à l’aide de l’option **[!UICONTROL _Sélectionner un plan_]**.
+* Sélectionnez un plan dans le menu déroulant **[!UICONTROL Plan name]** à l’aide de l’option **[!UICONTROL _Sélectionner un plan..._]**.
 
 * Spécifiez une période. Pour modifier la période, saisissez une date de début et une date de fin manuellement ou sélectionnez une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
 
@@ -147,7 +156,7 @@ Pour modifier une visualisation :
 
      * Pour les plans basés sur le retour sur investissement, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] et [!UICONTROL Volume].
      * Pour les plans basés sur CPA, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] et [!UICONTROL Volume].
-   * **[!UICONTROL Granularity]** : sélectionnez **[!UICONTROL date ranges]** ou **[!UICONTROL week]** dans le menu déroulant **[!UICONTROL Granularity]** .
+   * **[!UICONTROL Granularity]** : sélectionnez **[!UICONTROL date ranges]** ou **[!UICONTROL week]** dans le menu déroulant **[!UICONTROL Granularity]**.
 
    Vous pouvez constater dans **[!UICONTROL Preview]** en quoi les modifications diffèrent de la visualisation **[!UICONTROL Current]**.
 

@@ -1,29 +1,39 @@
 ---
 title: Utiliser les données de notation
-description: Découvrez comment les données de notation d’un modèle dans Mix Modeler sont conservées.
+description: Découvrez comment les données de notation d’un modèle dans Marketing Campaign Analytics sont conservées.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
 autotag-review: '2026-05-01T08:58:54.964Z'
+TQID: 'https://experienceleague.adobe.com/WV57Ccr2rGydmuN8fKgysOXoFOufY-LlzLxdMNbBb-w'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Metadata
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: '685'
 ht-degree: 25%
-
 ---
-
 # Utiliser les données de notation
+
+{{mm-mca-rebranding}}
 
 Dans le cadre de la notation d’un modèle, les données de notation sont conservées dans un jeu de données dans Experience Platform. Lorsque vous avez activé l’attribution multipoint lors de la création du modèle, des données de score d’événement supplémentaires sont conservées dans un jeu de données dans Experience Platform.
 
@@ -84,8 +94,8 @@ Le groupe de champs contient les champs suivants.
 |      `receivedTimeStamp` | DateTime | Date et heure de réception de la conversion. <br> **Exemple :** `2020-06-09T00:01:51.000Z` |
 |      `skuId` | Chaîne | Unité de stock (SKU), identifiant unique d’un produit défini par le fournisseur. <br> **Exemple :** `MJ-03-XS-Black` |
 |      `timestamp` | DateTime | Date et heure de la conversion. <br> **Exemple :** `2020-06-09T00:01:51.000Z` |
-|      `totalDaysToConversion` | Entier |  |
-|      `totalTouchpointCount` | Entier | |
+|      `totalDaysToConversion` | Nombre entier |  |
+|      `totalTouchpointCount` | Nombre entier | |
 | `customerProfile` | Objet | Détails d’identité de l’utilisateur ou de l’utilisatrice utilisés pour créer le modèle. |
 |      `identity` | Objet | |
 |           `id` | Chaîne | |
@@ -111,8 +121,8 @@ Le groupe de champs contient les champs suivants.
 |           `mediaChannel` | Chaîne | |
 |           `receivedTimeStamp` | DateTime | |
 |           `timestamp` | DateTime | |
-|      `isFirstInThePosition` | Entier | |
-|      `lag` | Entier | |
+|      `isFirstInThePosition` | Nombre entier | |
+|      `lag` | Nombre entier | |
 |      `position` | Chaîne | |
 |      `touchpointCountToConversion` | Entier | |
 |      `touchpointName` | Chaîne | Nom du point de contact qui a été configuré lors de la configuration. <br> **Exemple :** `PAID_SEARCH_CLICK` |
