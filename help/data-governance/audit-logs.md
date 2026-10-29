@@ -1,13 +1,13 @@
 ---
 title: Journaux d’audit
-description: Découvrez comment accéder aux journaux d’audit de Mix Modeler.
+description: Découvrez comment accéder aux journaux d’audit de Marketing Campaign Analytics.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 autotag-review: '2026-05-01T09:16:13.122Z'
-TQID: 'https://experienceleague.adobe.com/SVw4XFGpjHu5B5awcf9L-LH-IMEMrMmReACYo3-fSb0'
+TQID: 'https://experienceleague.adobe.com/ZH89ZDOEMDwbvU5QnPtpkDft0U121-JDrhgEBPDuV3Q'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
@@ -32,58 +32,60 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 13%
+source-wordcount: '519'
+ht-degree: 12%
 ---
 # Journaux d’audit
 
-Pour accroître la transparence et la visibilité des activités exécutées dans le système, l’activité des utilisateurs et utilisatrices dans le workflow Mix Modeler est capturée dans les journaux d’audit Experience Platform afin de comprendre toute modification apportée aux catégories Mix Modeler par les utilisateurs et utilisatrices. Ces journaux constituent un journal d’audit qui peut vous aider à résoudre les problèmes et à vous conformer efficacement aux politiques de gestion des données d’entreprise et aux exigences réglementaires.
+{{mm-mca-rebranding}}
+
+Pour accroître la transparence et la visibilité des activités exécutées dans le système, l’activité des utilisateurs et utilisatrices dans le workflow Marketing Campaign Analytics est capturée dans les journaux d’audit Experience Platform afin de comprendre toute modification apportée aux catégories Marketing Campaign Analytics par les utilisateurs et utilisatrices. Ces journaux constituent un journal d’audit qui peut vous aider à résoudre les problèmes et à vous conformer efficacement aux politiques de gestion des données d’entreprise et aux exigences réglementaires.
 
 <!-- 
 DO WE HAVE TO ADD THIS
-If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
+If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Marketing Campaign Analytics, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
-Un journal d’audit indique qui a effectué quelle action et quand. Chaque action enregistrée dans un journal contient des métadonnées qui indiquent le type d’action, la date et l’heure, l’ID d’e-mail de l’utilisateur ou de l’utilisatrice qui a exécuté l’action et des attributs supplémentaires liés au type d’action. Il effectue le suivi des actions de création, de mise à jour et de suppression entreprises par les utilisateurs dans Mix Modeler.
+Un journal d’audit indique qui a effectué quelle action et quand. Chaque action enregistrée dans un journal contient des métadonnées qui indiquent le type d’action, la date et l’heure, l’ID d’e-mail de l’utilisateur ou de l’utilisatrice qui a exécuté l’action et des attributs supplémentaires liés au type d’action. Il effectue le suivi des actions de création, de mise à jour et de suppression entreprises par les utilisateurs dans Marketing Campaign Analytics.
 
-Pour examiner le journal d’audit, dans l’interface de Mix Modeler :
+Pour examiner le journal d’audit, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Liste des tâches](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** dans **[!UICONTROL PRIVACY]**.
 
-1. En **[!UICONTROL Audits]**, vous pouvez trouver le **[!UICONTROL Activity log]**. Le journal des activités affiche les entrées des catégories, actions et statuts Mix Modeler ci-après.
+1. En **[!UICONTROL Audits]**, vous pouvez trouver le **[!UICONTROL Activity log]**. Le journal des activités affiche les entrées des catégories, actions et statuts Marketing Campaign Analytics ci-après.
 
    | Catégorie | Action | État |
    |---|---|---|
-   | Règle du jeu de données Mix Modeler | Créer | Autoriser ou refuser |
-   | Règle du jeu de données Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Règle du jeu de données Mix Modeler | Supprimer | Autoriser ou refuser |
-   | Champ Mix Modeler | Créer | Autoriser ou refuser |
-   | Champ Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Champ Mix Modeler | Supprimer | Autoriser ou refuser |
-   | Point de contact marketing Mix Modeler | Créer | Autoriser ou refuser |
-   | Point de contact marketing Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Point de contact marketing Mix Modeler | Supprimer | Autoriser ou refuser |
-   | Conversion Mix Modeler | Créer | Autoriser ou refuser |
-   | Conversion Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Conversion Mix Modeler | Supprimer | Autoriser ou refuser |
-   | Modèle Mix Modeler | Créer | Autoriser ou refuser |
-   | Modèle Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Modèle Mix Modeler | Supprimer | Autoriser ou refuser |
-   | Modèle Mix Modeler | Score | Autoriser ou refuser |
-   | Modèle Mix Modeler | Cloner | Autoriser ou refuser |
-   | Modèle Mix Modeler | Former / Recycler | Autoriser ou refuser |
-   | Modèle Mix Modeler | Télécharger/enregistrer des métadonnées | Autoriser ou refuser |
-   | Plan Mix Modeler | Créer | Autoriser ou refuser |
-   | Plan Mix Modeler | Mise à jour | Autoriser ou refuser |
-   | Plan Mix Modeler | Modifier le modèle associé | Autoriser ou refuser |
-   | Harmonisation des données Mix Modeler | Synchronisation du déclencheur | Autoriser ou refuser |
+   | Règle du jeu de données Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Règle du jeu de données Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Règle du jeu de données Marketing Campaign Analytics | Supprimer | Autoriser ou refuser |
+   | Champ Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Champ Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Champ Marketing Campaign Analytics | Supprimer | Autoriser ou refuser |
+   | Point de contact marketing Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Point de contact marketing Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Point de contact marketing Marketing Campaign Analytics | Supprimer | Autoriser ou refuser |
+   | Conversion Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Conversion Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Conversion Marketing Campaign Analytics | Supprimer | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Supprimer | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Score | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Cloner | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Former / Recycler | Autoriser ou refuser |
+   | Modèle Marketing Campaign Analytics | Télécharger/enregistrer des métadonnées | Autoriser ou refuser |
+   | Plan Marketing Campaign Analytics | Créer | Autoriser ou refuser |
+   | Plan Marketing Campaign Analytics | Mise à jour | Autoriser ou refuser |
+   | Plan Marketing Campaign Analytics | Modifier le modèle associé | Autoriser ou refuser |
+   | Harmonisation des données Marketing Campaign Analytics | Synchronisation du déclencheur | Autoriser ou refuser |
 
 
 1. Sélectionnez une entrée dans le journal des activités pour ouvrir un panneau pour plus d’informations.
 
-   ![Audit &#x200B;](/help/assets/mix-modeler-audit.png)
+   ![Audit ](/help/assets/mix-modeler-audit.png)
 
 1. Pour filtrer par plage de **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** ou **[!UICONTROL Date]**, sélectionnez ![Filtrer](/help/assets/icons/Filter.svg).
 
@@ -95,4 +97,4 @@ Pour examiner le journal d’audit, dans l’interface de Mix Modeler :
 
 Lorsque la fonctionnalité est activée pour votre organisation, les journaux d’audit sont automatiquement collectés au fur et à mesure de l’activité. Vous n’avez pas besoin d’activer manuellement la collecte des journaux d’audit.
 
-Pour afficher et exporter les journaux d’audit, l’autorisation de contrôle d’accès Accès aux journaux d’audit doit avoir été accordée. Pour savoir comment gérer les autorisations individuelles pour les fonctionnalités Mix Modeler, consultez la [documentation sur le contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home).
+Pour afficher et exporter les journaux d’audit, l’autorisation de contrôle d’accès Accès aux journaux d’audit doit avoir été accordée. Pour savoir comment gérer les autorisations individuelles pour les fonctionnalités Marketing Campaign Analytics, consultez la [documentation sur le contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home).

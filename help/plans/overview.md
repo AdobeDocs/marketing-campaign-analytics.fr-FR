@@ -1,33 +1,45 @@
 ---
 title: Présentation des plans
-description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
+description: Découvrez comment afficher, sélectionner et agir sur les plans dans Marketing Campaign Analytics.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # Présentation des plans
 
-Dans Mix Modeler, les plans vous permettent de répartir les budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles entraînés en fonction de vos données harmonisées.
+{{mm-mca-rebranding}}
+
+Dans Marketing Campaign Analytics, les plans vous permettent de répartir les budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles entraînés en fonction de vos données harmonisées.
 
 Un plan décrit les investissements discrétionnaires (par exemple, les budgets) qu&#39;une entreprise a l&#39;intention de consacrer à des projets liés au marketing au cours d&#39;une période donnée. Ces investissements sont au service d’indicateurs clés de performance courants (par exemple, commandes, chiffre d’affaires). Les forfaits peuvent inclure des dépenses liées à des canaux comme la publicité payante, le contenu Web parrainé, des événements.
 
@@ -48,12 +60,12 @@ Si un modèle que vous avez utilisé pour votre plan est noté sur de nouvelles 
 
 ## Créer des plans
 
-Pour créer un plan, utilisez l’assistant de création de plan Mix Modeler. Voir [Créer des plans](build.md) pour plus d’informations.
+Pour créer un plan, utilisez l’assistant de création de plan Marketing Campaign Analytics. Voir [Créer des plans](build.md) pour plus d’informations.
 
 
 ## Gestion des plans
 
-Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler :
+Pour afficher un tableau de vos plans actuels, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 
@@ -90,7 +102,7 @@ Pour afficher les informations d’un plan et modifier un plan :
 
 1. Sélectionnez le nom du plan.
 
-Vous êtes redirigé vers [&#x200B; Informations sur le plan &#x200B;](insights.md).
+Vous êtes redirigé vers [ Informations sur le plan ](insights.md).
 
 
 ### Dupliquer un plan
@@ -100,15 +112,15 @@ Pour dupliquer un plan :
 - Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan. Dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 - Vous pouvez également sélectionner un plan dans le tableau ![SelectBox](/help/assets/icons/SelectBox.svg) et sélectionner ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions bleue.
 
-Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)] (_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
+Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
 
 - Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
 - Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
 - Vous avez la possibilité de sélectionner un autre modèle comme base du plan copié.
-   - Pour les points de contact ou les canaux qui existent dans le plan copié mais qui n’existent pas dans le modèle nouvellement sélectionné, les contraintes de ces points de contact ou canaux sont supprimées du plan.
-   - Pour les points de contact ou les canaux qui n’existent pas dans le plan copié, mais qui existent dans le modèle nouvellement sélectionné, les contraintes sont définies sur :
-      - une valeur minimale de `0`,
-      - valeur maximale conforme au budget de la plage de vol du plan.
+  - Pour les points de contact ou les canaux qui existent dans le plan copié mais qui n’existent pas dans le modèle nouvellement sélectionné, les contraintes de ces points de contact ou canaux sont supprimées du plan.
+  - Pour les points de contact ou les canaux qui n’existent pas dans le plan copié, mais qui existent dans le modèle nouvellement sélectionné, les contraintes sont définies sur :
+    - une valeur minimale de `0`,
+    - valeur maximale conforme au budget de la plage de vol du plan.
 
 
 
@@ -131,6 +143,6 @@ Pour supprimer plusieurs plans :
 
 1. Sélectionnez plusieurs plans.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**&#x200B;pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
 

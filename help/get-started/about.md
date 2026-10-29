@@ -1,25 +1,25 @@
 ---
-title: Vue d’ensemble de Mix Modeler
-description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
-short-description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
+title: Présentation de Marketing Campaign Analytics
+description: Obtenez un aperçu des fonctionnalités de Marketing Campaign Analytics.
+short-description: Obtenez un aperçu des fonctionnalités de Marketing Campaign Analytics.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
-TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
+TQID: 'https://experienceleague.adobe.com/p5U62D65U-w6VtaGOsBuJlKWxcz2p-Qgku6zq-ezNQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
-  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-    internal-label: Plans
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,24 +40,24 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 5%
+source-wordcount: '786'
+ht-degree: 1%
 ---
-# Vue d’ensemble de Mix Modeler
+# Présentation de Marketing Campaign Analytics
 
-Mix Modeler, optimisé par Adobe Sensei, permet aux spécialistes marketing de mesurer les campagnes et d’optimiser la planification de manière holistique, sur tous les canaux : payant, gagné et détenu. Sa méthodologie unifiée mesure progressivement les points de contact marketing et les niveaux agrégés, tout en assurant des résultats entièrement cohérents.
+Marketing Campaign Analytics, optimisé par Adobe Sensei, permet aux spécialistes marketing de mesurer les campagnes et d’optimiser la planification de manière holistique, sur tous les canaux : payant, gagné et détenu. Sa méthodologie unifiée mesure progressivement les points de contact marketing et les niveaux agrégés, tout en assurant des résultats entièrement cohérents.
 
-Mix Modeler fournit l’impact incrémentiel de toutes les activités marketing sur les résultats commerciaux et de campagne par le biais d’une application de mesure holistique (de bout en bout) pour le marketing numérique et hors ligne.
+Marketing Campaign Analytics fournit l’impact incrémentiel de toutes les activités marketing sur les résultats commerciaux et de campagne par le biais d’une application de mesure holistique (de bout en bout) pour le marketing numérique et hors ligne.
 
-Mix Modeler fournit les types d’informations optimisées et exploitables suivants à un niveau stratégique et tactique, afin que vous puissiez mieux comprendre :
+Marketing Campaign Analytics fournit les types d’informations optimisées et exploitables suivants à un niveau stratégique et tactique, afin que vous puissiez mieux comprendre :
 
 * les dépenses de marketing et les performances qui en résultent sur différents canaux ; et
 * niveaux d’investissement recommandés pour atteindre les objectifs commerciaux futurs.
 
 
-Pour accomplir cette fonctionnalité, Mix Modeler combine les éléments suivants :
+Pour accomplir cette fonctionnalité, Marketing Campaign Analytics combine les éléments suivants :
 
 * les données ascendantes (au niveau de l’événement) et descendantes (au niveau agrégé),
 * facteurs liés au marché extérieur et facteurs internes, et
@@ -65,12 +65,12 @@ Pour accomplir cette fonctionnalité, Mix Modeler combine les éléments suivant
 
 L’apprentissage par transfert bidirectionnel IA/ML unifie les résultats de la modélisation du marketing mix (MMM) et de l’attribution multipoint (MTA) afin d’assurer des résultats cohérents en matière de mesure et de planification dans un monde sans cookies.
 
-![&#x200B; Apprentissage par transfert bidirectionnel &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ Apprentissage par transfert bidirectionnel ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Fonctionnalités
 
-Mix Modeler offre les fonctionnalités suivantes :
+Marketing Campaign Analytics offre les fonctionnalités suivantes :
 
 | Fonctionnalité | Description |
 |---|---|
@@ -83,12 +83,12 @@ Mix Modeler offre les fonctionnalités suivantes :
 
 >[!MORELIKETHIS]
 >
->[Présentation du workflow Mix Modeler](workflow.md)
+>[Présentation du workflow Marketing Campaign Analytics](workflow.md)
 
 
 ### Modélisation du mix marketing (MMM)
 
-La modélisation du mix marketing dans Mix Modeler est une analyse de machine learning respectueuse de la vie privée utilisée pour mesurer l’impact incrémentiel de diverses tactiques marketing et de différents facteurs commerciaux sur les mesures de conversion. Cela aide les entreprises et les spécialistes du marketing à comprendre
+La modélisation du mix marketing dans Marketing Campaign Analytics est une analyse de machine learning respectueuse de la vie privée utilisée pour mesurer l’impact incrémentiel de diverses tactiques marketing et de différents facteurs commerciaux sur les mesures de conversion. Cela aide les entreprises et les spécialistes du marketing à comprendre
 
 * l&#39;efficacité de leurs stratégies de commercialisation,
 * les effets des facteurs commerciaux sur le comportement des clients, et
@@ -96,7 +96,7 @@ La modélisation du mix marketing dans Mix Modeler est une analyse de machine le
 
 Cette analyse complète permet aux entreprises d’allouer stratégiquement des budgets marketing à différents secteurs d’activité, régions, canaux et campagnes, tout en fournissant des informations prédictives sur l’impact commercial des événements futurs.
 
-Les fonctionnalités de modélisation du marketing mix de Mix Modeler sont fondamentales pour résoudre les cas d’utilisation suivants :
+Les fonctionnalités de modélisation du marketing mix de Marketing Campaign Analytics sont fondamentales pour résoudre les cas d’utilisation suivants :
 
 * Rapports exécutifs : permettent aux cadres de comprendre l’impact incrémentiel réel du marketing, à la fois dans son ensemble et par canal, région, SKU, etc.
 * Planification stratégique : Éclairez les stratégies de marketing à long terme et établissez des objectifs et des points de repère réalistes pour les futures campagnes.
@@ -106,9 +106,9 @@ Les fonctionnalités de modélisation du marketing mix de Mix Modeler sont fonda
 
 ### Attribution multipoint (MTA)
 
-L’attribution multipoint dans Mix Modeler est une analyse de machine learning facultative que vous pouvez exploiter pour attribuer des crédits aux points de contact au niveau de l’événement conduisant à des événements de conversion. Cette attribution est utilisée par les spécialistes marketing pour aider à quantifier l’impact marketing de chaque point de contact marketing individuel sur les parcours clients qui font l’objet d’un suivi. Ces points de contact de campagne de marketing numérique sont généralement l’affichage des clics publicitaires, les envois d’e-mails, les ouvertures d’e-mail et les clics de référencement payant. L’attribution multipoint ne peut pas mesurer la plupart des points de contact hors ligne tels que les publicités imprimées, les panneaux d’affichage, les publicités télévisées et les facteurs commerciaux. Ces points de contact disposent uniquement de données de niveau résumé qui ne peuvent pas être regroupées avec les parcours client.
+L’attribution multipoint dans Marketing Campaign Analytics est une analyse de machine learning facultative que vous pouvez exploiter pour attribuer des crédits aux points de contact au niveau de l’événement conduisant à des événements de conversion. Cette attribution est utilisée par les spécialistes marketing pour aider à quantifier l’impact marketing de chaque point de contact marketing individuel sur les parcours clients qui font l’objet d’un suivi. Ces points de contact de campagne de marketing numérique sont généralement l’affichage des clics publicitaires, les envois d’e-mails, les ouvertures d’e-mail et les clics de référencement payant. L’attribution multipoint ne peut pas mesurer la plupart des points de contact hors ligne tels que les publicités imprimées, les panneaux d’affichage, les publicités télévisées et les facteurs commerciaux. Ces points de contact disposent uniquement de données de niveau résumé qui ne peuvent pas être regroupées avec les parcours client.
 
-L’attribution multipoint Mix Modeler prend en charge deux catégories de scores :
+L’attribution multipoint Marketing Campaign Analytics prend en charge deux catégories de scores :
 
 * Scores algorithmiques, qui incluent les scores incrémentiels et influencés :
   * Le score influencé est la fraction de la conversion dont chaque point de contact marketing est responsable.
@@ -116,13 +116,13 @@ L’attribution multipoint Mix Modeler prend en charge deux catégories de score
 
 * Scores basés sur des règles, qui incluent Première touche, Dernière touche, Linéaire, en forme de U et Dégradation dans le temps.
 
-Vous pouvez utiliser la fonctionnalité d’attribution multipoint de Mix Modeler dans les cas d’utilisation suivants :
+Vous pouvez utiliser la fonctionnalité d’attribution multipoint de Marketing Campaign Analytics dans les cas d’utilisation suivants :
 
 * Allocation du budget de campagne : permet d’informer les décisions d’allocation budgétaire sur les canaux marketing.
 * Optimisation des campagnes : au sein de chaque canal, identifiez les campagnes, contenus publicitaires et mots-clés qui fonctionnent le mieux pour chaque SKU ou zone géographique. Cette compréhension vous permet d’examiner chaque canal afin que l’équipe marketing puisse optimiser ses tactiques.
 * Attribution au niveau de l’événement full-funnel : comprendre l’impact du marketing sur l’ensemble du parcours client. Par exemple, d’une création gratuite de compte à une conversion payante et au-delà.
 * Évaluations des partenaires : Évaluez l&#39;efficacité des organismes et des partenaires en fonction des résultats de l&#39;attribution.
 
-Consultez [Model Insights - Attribution](../models/insights.md#attribution) pour savoir comment accéder aux informations d’attribution multipoint dans Mix Modeler.
+Consultez [Model Insights - Attribution](../models/insights.md#attribution) pour savoir comment accéder aux informations d’attribution multipoint dans Marketing Campaign Analytics.
 
 

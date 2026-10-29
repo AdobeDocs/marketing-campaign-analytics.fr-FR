@@ -1,15 +1,20 @@
 ---
 title: Présentation de l’harmonisation des jeux de données
-description: Découvrez comment harmoniser les données dans Mix Modeler.
+description: Découvrez comment harmoniser les données dans Marketing Campaign Analytics.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+autotag-review: '2026-05-01T09:10:10.340Z'
+TQID: 'https://experienceleague.adobe.com/QFpx2-PjU-GBiyocCsL-myjLoETUJGOikkLcdaGDlGk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
@@ -29,20 +34,21 @@ role_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-autotag-review: '2026-05-01T09:10:10.340Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1389'
 ht-degree: 17%
 ---
 # Présentation de l’harmonisation des jeux de données
 
-Les données de Mix Modeler sont de nature différente selon la source de données. Les données peuvent être :
+{{mm-mca-rebranding}}
+
+Les données de Marketing Campaign Analytics sont de nature différente selon la source de données. Les données peuvent être :
 
 * des données agrégées ou récapitulatives, par exemple collectées à partir de sources de données de jardins clos ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
 * Données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être des données collectées via le connecteur source Adobe Analytics d’Adobe Analytics, ou via l’API Experience Platform Web ou Mobile SDK ou Edge Network, ou des données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler assimile les données agrégées et d’événement en une vue de données cohérente. Cette vue de données est la source des modèles dans Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
+Le service d’harmonisation de Marketing Campaign Analytics assimile les données agrégées et d’événement en une vue de données cohérente. Cette vue de données est la source des modèles dans Marketing Campaign Analytics. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
 
 ## Facteurs
 
@@ -52,7 +58,7 @@ Les facteurs sont essentiels à la création de modèles et vous souhaitez compr
 
 * Les facteurs externes sont des facteurs indépendants de la volonté de votre entreprise, mais qui peuvent tout de même avoir un impact sur les conversions que vous réalisez. Par exemple, CPI, S&amp;P 500, etc.
 
-La fonctionnalité Facteurs de Mix Modeler utilise un workflow de facteurs harmonisés. Ce workflow simplifie la gestion des facteurs, offre une cohérence entre les modèles et offre une expérience intuitive.
+La fonctionnalité Facteurs de Marketing Campaign Analytics utilise un workflow de facteurs harmonisés. Ce workflow simplifie la gestion des facteurs, offre une cohérence entre les modèles et offre une expérience intuitive.
 
 Dans le cadre du workflow des facteurs harmonisés :
 
@@ -71,7 +77,7 @@ Lorsque vous dupliquez un modèle qui utilise le workflow des facteurs basés su
 
 ## Exemple de données harmonisées
 
-Imaginons que les jeux de données suivants soient disponibles pour Mix Modeler.
+Imaginons que les jeux de données suivants soient disponibles pour Marketing Campaign Analytics.
 
 **Jeu de données 1**
 
@@ -164,7 +170,7 @@ Pour créer un jeu de données harmonisé, comme dans l’exemple simplifié [ex
 
 ## Afficher les données harmonisées
 
-Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
+Pour afficher vos données harmonisées, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 

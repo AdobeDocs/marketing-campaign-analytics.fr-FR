@@ -1,34 +1,51 @@
 ---
 title: Règles des jeux de données
-description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
+description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Marketing Campaign Analytics.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 4%
-
 ---
-
 # Règles des jeux de données
 
-Les règles des jeux de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Mix Modeler.
+{{mm-mca-rebranding}}
+
+Les règles des jeux de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Marketing Campaign Analytics.
 
 * Pour les données agrégées que vous avez ingérées dans Adobe Experience Platform, vous mappez un ou plusieurs des champs de jeux de données disponibles aux champs harmonisés appropriés.
 * Pour les données d’événement, vous pouvez mapper individuellement un ou plusieurs champs harmonisés aux champs du jeu de données, directement ou à l’aide de conditions.
@@ -37,7 +54,7 @@ Les règles des jeux de données vous aident à mapper vos champs harmonisés av
 
 ## Gestion des règles des jeux de données
 
-Pour afficher un tableau des règles de jeu de données disponibles, dans l’interface de Mix Modeler :
+Pour afficher un tableau des règles de jeu de données disponibles, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -69,7 +86,7 @@ Les colonnes du tableau spécifient des détails sur les règles du jeu de donn�
 
 ### Créer une règle de jeu de données
 
-Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant de **[!UICONTROL Dataset rules configuration]**.
+Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant de **[!UICONTROL Dataset rules configuration]**.
 
 Dans l’écran **[!UICONTROL Create]**,
 
@@ -83,7 +100,7 @@ Dans l’écran **[!UICONTROL Create]**,
 
    Les données de rapport des éditeurs sont très importantes pour les analystes marketing, car travailler avec les éditeurs implique souvent des dépenses importantes et des modifications dans les données de rapport peuvent entraîner des informations et des plans d’investissement très différents. En outre, les analystes marketing ont besoin de données précises pour obtenir les bonnes informations et présenter des propositions convaincantes afin de gagner la confiance des parties prenantes. Cependant, ces éditeurs, tels que Google et Facebook, retraitent ou suppriment souvent les données de rapports lorsqu’ils réconcilient leurs données. La période pour la plupart des modifications est de moins de 7 jours à compter de la performance multimédia signalée. D’autres modifications des données sont possibles dans les 30 jours. En général, après 30 jours, les livres sont considérés comme fermés et les données sont complètes.
 
-   Mix Modeler prend en charge le retraitement des données. S’assurer que les données utilisées pour la création de rapports, la modélisation et la planification sont exactes. et que les données sont en mesure de soutenir les attentes et les besoins de l’analyste de la marque et du marketing.
+   Marketing Campaign Analytics prend en charge le retraitement des données. S’assurer que les données utilisées pour la création de rapports, la modélisation et la planification sont exactes. et que les données sont en mesure de soutenir les attentes et les besoins de l’analyste de la marque et du marketing.
 
    Vous pouvez envoyer des lignes retraitées de données récapitulatives sous forme de lignes incrémentielles dans un jeu de données Experience Platform et le service d’harmonisation met à jour le jeu de données harmonisé avec ces données retraitées. De même, vous pouvez également supprimer des lignes de données récapitulatives qui doivent être reflétées dans le service d’harmonisation.
 
@@ -93,17 +110,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
      1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-     1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+     1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    * Lorsque le champ sélectionné est de type dimension :
 
      1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-     1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+     1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-     1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+     1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-        1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+        1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
         1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -135,7 +152,7 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour en
 
 #### Jeux de données récapitulatifs
 
-Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire le champ de jeu de données Experience Platform correspondant. En cas de réussite :
+Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Marketing Campaign Analytics tente de déduire le champ de jeu de données Experience Platform correspondant. En cas de réussite :
 
 * Si le champ est de type dimension, **[!UICONTROL Map into]** est sélectionné comme **[!UICONTROL Mapping type]**.
 * Si le champ est de type mesure, **[!UICONTROL Sum]** est sélectionné comme **[!UICONTROL Mapping type]**.
@@ -147,7 +164,7 @@ Vous pouvez modifier n’importe laquelle des valeurs proposées si elles sont i
 
 #### Jeux de données de facteur
 
-Vous mappez des champs harmonisés aux champs d&#39;un jeu de données de facteurs, de sorte que vous puissiez [&#x200B; ajouter des facteurs dans le cadre de la configuration de votre modèle](/help/models/build.md).
+Vous mappez des champs harmonisés aux champs d&#39;un jeu de données de facteurs, de sorte que vous puissiez [ ajouter des facteurs dans le cadre de la configuration de votre modèle](/help/models/build.md).
 
 Lorsque vous mappez des champs harmonisés avec des champs d&#39;un jeu de données de facteurs, les conditions suivantes s&#39;appliquent :
 
@@ -212,7 +229,7 @@ Pour le champ harmonisé **[!UICONTROL Factor value]**, utilisez l’un des opé
 
 ### Modification d’une règle de jeu de données
 
-Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler :
+Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** de la règle de jeu de données à modifier.
 1. Dans le menu contextuel, sélectionnez ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** pour commencer à modifier la règle du jeu de données. Pour plus d’informations, voir [Création d’une règle de jeu de données](#create-a-dataset-rule).
@@ -220,7 +237,7 @@ Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/h
 
 ### Suppression d’une règle de jeu de données
 
-Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler :
+Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** de la règle de jeu de données à supprimer.
 1. Dans le menu contextuel, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous êtes invité à confirmer l’opération. Sélectionnez **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.

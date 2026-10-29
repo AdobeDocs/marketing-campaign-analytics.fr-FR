@@ -1,14 +1,16 @@
 ---
 title: Politiques
-description: Découvrez comment accéder aux politiques depuis Mix Modeler.
+description: Découvrez comment accéder aux politiques depuis Marketing Campaign Analytics.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -30,16 +32,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 9%
 ---
 # Politiques
 
-Une fois que vous avez parcouru le workflow pour créer un modèle et envoyé la configuration du modèle, [application des politiques](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) vérifie s’il existe des violations. Si une violation de politique se produit, une fenêtre contextuelle s’affiche indiquant qu’une ou plusieurs politiques ont été violées. Ce contrôle permet de s’assurer que vos opérations de données et vos actions marketing dans Experience Platform sont conformes aux politiques d’utilisation des données.
+{{mm-mca-rebranding}}
 
-Par défaut, Mix Modeler vérifie les violations des politiques définies par Adobe associées aux libellés et aux actions marketing suivants :
+Une fois que vous avez parcouru le workflow pour créer un modèle et envoyé la configuration du modèle, [application des politiques](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) vérifie s’il existe des violations. Si une violation de politique se produit, une fenêtre contextuelle s’affiche indiquant qu’une ou plusieurs politiques ont été violées. Ce contrôle permet de s’assurer que vos opérations de données et vos actions marketing dans Experience Platform sont conformes aux politiques d’utilisation des données.
+
+Par défaut, Marketing Campaign Analytics vérifie les violations des politiques définies par Adobe associées aux libellés et aux actions marketing suivants :
 
 | Nom de la stratégie | Libellé associé | Action marketing associée |
 |---|---|---|
@@ -81,12 +85,12 @@ Les fenêtres contextuelles détectées de violation de la politique de gouverna
 La sélection de l’**[!UICONTROL Policies]** ![Confidentialité](/help/assets/icons/Privacy.svg) dans le rail de gauche permet d’accéder à l’interface [!UICONTROL Policies] d’Experience Platform et de gérer vos politiques, libellés et actions marketing.
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]
 >
->[Présentation des politiques d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/policies/overview)
+>[Présentation des politiques d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

@@ -1,28 +1,34 @@
 ---
 title: de conversions
-description: Découvrez comment créer des conversions à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
+description: Découvrez comment créer des conversions à utiliser dans le cadre de l’harmonisation de vos données dans Marketing Campaign Analytics.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:15:50.061Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 10%
-
+source-wordcount: '454'
+ht-degree: 9%
 ---
-
 # de conversions {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -36,7 +42,7 @@ Vous définissez des conversions marketing pour l’analyse d’attribution.
 
 ## Gestion des conversions
 
-Pour afficher un tableau des conversions disponibles, dans l’interface de Mix Modeler :
+Pour afficher un tableau des conversions disponibles, dans l’interface de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -48,15 +54,15 @@ Les colonnes du tableau indiquent les détails de la conversion :
 | --- | ---|
 | Nom | Nom de la conversion. |
 | Recettes | Mesure de données harmonisée à utiliser pour calculer le chiffre d’affaires d’une conversion. |
-| Mesure de conversion | Mesure de données harmonisée à utiliser comme mesure de conversion pour l’analyse. |
-| Catégorie | Catégorie de conversion de la conversion. |
+| Mesure de conversion | Mesure de données harmonisée à utiliser comme mesure de conversion pour l’analyse. Cela indique les principaux résultats numériques de l’entreprise, tels que : commandes, chiffre d’affaires, nombre d’abonnements, etc. |
+| Catégorie | Règle de conversion à appliquer, lorsqu’une dimension de conversion est utilisée pour classer le type de conversion. |
 | Created | Date et heure de création de la conversion. |
 | Dernière modification | Date et heure de la dernière modification de la conversion. |
 
 
 ## Ajouter une conversion
 
-Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Mix Modeler :
+Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Marketing Campaign Analytics :
 
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -70,7 +76,7 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Conversion metric for analysis]**, par exemple **[!UICONTROL Orders]**.
 

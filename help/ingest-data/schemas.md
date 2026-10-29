@@ -1,37 +1,45 @@
 ---
 title: Schémas
-description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
+description: Découvrez comment gérer les schémas requis pour ingérer des données dans Marketing Campaign Analytics.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 7%
-
 ---
-
 # Schémas
 
-Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Experience Platform et utiliser dans Mix Modeler :
+{{mm-mca-rebranding}}
 
-1. Accédez à l’interface de Mix Modeler.
+Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Experience Platform et utiliser dans Marketing Campaign Analytics :
+
+1. Accédez à l’interface de Marketing Campaign Analytics.
 
 1. Sélectionnez ![Schémas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sous **[!UICONTROL SETUP]**.
 
-Consultez la [&#x200B; Présentation de l’interface utilisateur des schémas &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) pour plus d’informations.
+Consultez la [ Présentation de l’interface utilisateur des schémas ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) pour plus d’informations.
 
 ## Données agrégées ou récapitulatives
 
-Il est vivement recommandé d’utiliser la classe Mesures récapitulatives XDM comme base du schéma sous-jacent à toutes les données agrégées ou récapitulatives que vous souhaitez ingérer dans Experience Platform et utiliser dans Mix Modeler.
+Il est vivement recommandé d’utiliser la classe Mesures récapitulatives XDM comme base du schéma sous-jacent à toutes les données agrégées ou récapitulatives que vous souhaitez ingérer dans Experience Platform et utiliser dans Marketing Campaign Analytics.
 
 Utilisez la classe Mesures récapitulatives XDM pour :
 
@@ -97,7 +105,7 @@ Un jeu de données de synthèse, de facteur interne ou de facteur externe peut �
 
 ## Types de données pris en charge
 
-Actuellement, Mix Modeler ne prend pas en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#data-type), sont pris en charge :
+Actuellement, Marketing Campaign Analytics ne prend pas en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sont pris en charge :
 
 - Chaîne
 - Nombre entier
