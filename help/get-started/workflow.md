@@ -89,7 +89,7 @@ Un workflow type dans Marketing Campaign Analytics se compose des activités sui
 
 Vous trouverez ci-dessous un aperçu de la manière dont les données d’entrée peuvent circuler dans Marketing Campaign Analytics et dont Marketing Campaign Analytics peut produire des données de sortie pour sa propre interface, mais également pour d’autres solutions telles que Customer Journey Analytics.
 
-![Flux de données d’entrée/sortie ](../assets/mm-input-output.png)
+![Flux de données d’entrée/sortie &#x200B;](../assets/mm-input-output.png)
 
 <!--
 The detailed data-oriented flowchart below illustrates how:

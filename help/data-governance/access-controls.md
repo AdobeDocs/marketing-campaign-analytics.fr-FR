@@ -39,7 +39,7 @@ ht-degree: 25%
 
 {{mm-mca-rebranding}}
 
-Le contrôle d’accès pour Marketing Campaign Analytics est fourni via Experience Platform dans le Adobe Admin Console [](https://adminconsole.adobe.com/) et via [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions) dans Experience Platform. Cette fonctionnalité exploite les profils de produit dans Admin Console, liant les utilisateurs à des autorisations et des sandbox.
+Le contrôle d’accès pour Marketing Campaign Analytics est fourni via Experience Platform dans le Adobe Admin Console [&#128279;](https://adminconsole.adobe.com/) et via [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions) dans Experience Platform. Cette fonctionnalité exploite les profils de produit dans Admin Console, liant les utilisateurs à des autorisations et des sandbox.
 
 Pour plus d’informations sur le contrôle d’accès, voir [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home).
 

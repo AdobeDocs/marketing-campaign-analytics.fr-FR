@@ -101,7 +101,7 @@ Visualisation en ligne qui affiche l’indicateur de performance clé pour la p�
 
 Pour sélectionner un autre indicateur de performance clé :
 
-1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg).
+1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg).
 1. Dans la boîte de dialogue **[!UICONTROL KPI status card]**, sélectionnez un indicateur de performance clé dans le menu déroulant **[!UICONTROL KPI]**. Les options disponibles sont : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL Spend].
 
 
@@ -113,7 +113,7 @@ Pour redimensionner une visualisation, utilisez la poignée ┛ située dans le 
 
 Vous pouvez pointer sur n’importe quel élément de ligne, de barre ou de nuage de points d’une visualisation pour afficher une fenêtre contextuelle avec des informations supplémentaires.
 
-![ Visualisation ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *Mesure* : Réel/prévu
 

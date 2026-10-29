@@ -42,11 +42,11 @@ Pour gérer les jeux de données contenant les données à ingérer dans Experie
 
 1. Sélectionnez ![Données](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, sous **[!UICONTROL SETUP]**.
 
-Pour plus d’informations](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) consultez le [ Guide de l’interface utilisateur des jeux de données .
+Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) consultez le  Guide de l’interface utilisateur des jeux de données .
 
 >[!MORELIKETHIS]
 >
->* [ Ingérer des données ](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
+>* [&#x200B; Ingérer des données &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
 >* [Schémas](schemas.md)
 >* [Présentation de l’ingestion des données (Experience Platform)](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
 >* [Connecteurs Source (Experience Platform)](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)

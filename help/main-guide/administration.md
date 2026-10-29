@@ -53,7 +53,7 @@ ht-degree: 6%
 
 {{mm-mca-rebranding}}
 
-Utilisez [](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour gérer les produits et les utilisateurs Marketing Campaign Analytics.
+Utilisez [&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour gérer les produits et les utilisateurs Marketing Campaign Analytics.
 
 Pour que Marketing Campaign Analytics fonctionne correctement, vous devez définir les autorisations appropriées.
 
@@ -67,7 +67,7 @@ Dans l’interface utilisateur d’Adobe Experience Cloud :
 
 1. Assurez-vous d’avoir sélectionné un ou plusieurs sandbox pour le rôle.
 
-1. Ajoutez la ressource **** à la liste des ressources pour le rôle.
+1. Ajoutez la ressource **&#x200B;**&#x200B;à la liste des ressources pour le rôle.
 
 1. Veillez à sélectionner les autorisations **[!UICONTROL Adobe Marketing Campaign Analytics]** appropriées pour le rôle que vous êtes en train de configurer. Vous pouvez sélectionner un ou plusieurs des rôles suivants :
 
@@ -78,7 +78,7 @@ Dans l’interface utilisateur d’Adobe Experience Cloud :
    - **[!UICONTROL View Adobe Marketing Campaign Analytics Plans Configuration]**
    - **[!UICONTROL Manage Adobe Marketing Campaign Analytics Plans Configuration]**
 
-     ![RBAC ](/help/assets/mix-modeler-rbac.png)
+     ![RBAC &#x200B;](/help/assets/mix-modeler-rbac.png)
 
 
 1. Veillez à sélectionner des autorisations supplémentaires pour le rôle. Par exemple, pour afficher ou gérer des jeux de données et des schémas, vous devez sélectionner :
