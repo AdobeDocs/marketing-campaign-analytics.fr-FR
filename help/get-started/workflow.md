@@ -69,7 +69,7 @@ ht-degree: 1%
 
 Regardez cette vidéo pour une présentation du workflow de l’utilisateur dans Marketing Campaign Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440205/?captions=fre_fr&learn=on)
 
 
 Un workflow type dans Marketing Campaign Analytics se compose des activités suivantes :
