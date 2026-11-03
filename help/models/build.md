@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -51,7 +51,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Marketing Campaign Analytics`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -110,13 +110,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
         1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-     1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+     1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-     1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+     1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
      1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -280,17 +280,18 @@ Pour planifier la notation et la formation des modèles :
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Activer Customer Journey Analytics"
 >abstract="Pour mettre les données de score à la disposition de Customer Journey Analytics pour la création de rapports et l’analyse, activez ce paramètre. Une fois activé, vous devez supprimer le modèle pour désactiver ce paramètre."
 
+{{release-limited-testing-section}}
+
 Lorsque vous avez droit à Customer Journey Analytics et que vous avez créé une ou plusieurs [règles de jeu de données](/help/harmonize-data/dataset-rules.md) pour Marketing Campaign Analytics dans un sandbox spécifique :
 
 * Deux jeux de données Marketing Campaign Analytics dédiés sont créés dans votre sandbox Experience Platform.
-* Un Customer Journey Analytics [connexion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview), intitulé **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_nom-sandbox _)]**&#x200B;est créé et contient les jeux de données Marketing Campaign Analytics dédiés.
-* Un Customer Journey Analytics [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views), intitulé **[!UICONTROL Marketing Campaign Analytics Insights Data View (_nom-sandbox _)]**&#x200B;est créé en fonction de la connexion.
+* Un Customer Journey Analytics [connexion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview), intitulé **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_nom-sandbox _)]**est créé et contient les jeux de données Marketing Campaign Analytics dédiés.
+* Un Customer Journey Analytics [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views), intitulé **[!UICONTROL Marketing Campaign Analytics Insights Data View (_nom-sandbox _)]**est créé en fonction de la connexion.
 
 La connexion et la vue de données sont détenues par le système. Vous ne pouvez pas mettre à jour ni supprimer la connexion ou la vue de données.
 
@@ -303,11 +304,11 @@ Pour rendre les données de score du modèle disponibles pour Customer Journey A
 Pour rapporter et analyser rapidement vos données Marketing Campaign Analytics, dans un projet Customer Journey Analytics [espace de travail](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) :
 
 1. Sélectionnez **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
-1. Sélectionnez la vue de données dédiée **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;à utiliser pour un projet.
-1. Sélectionnez le **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modèle](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+1. Sélectionnez la vue de données dédiée **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**à utiliser pour un projet.
+1. Sélectionnez le **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modèle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
    * Sélectionnez **[!UICONTROL Preview]** pour afficher un aperçu.
 
-     ![Aperçu du modèle &#x200B;](/help/assets/model-cja-enable-template.png)
+     ![Aperçu du modèle ](/help/assets/model-cja-enable-template.png)
    * Sélectionnez **[!UICONTROL Use template]** pour créer un projet basé sur le modèle.
 
 ### Champs de création de rapports d’informations granulaires
