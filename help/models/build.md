@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ Pour planifier la notation et la formation des modèles :
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Activer Customer Journey Analytics"
 >abstract="Pour mettre les données de score à la disposition de Customer Journey Analytics pour la création de rapports et l’analyse, activez ce paramètre. Une fois activé, vous devez supprimer le modèle pour désactiver ce paramètre."
+
+{{release-limited-testing-section}}
 
 Lorsque vous avez droit à Customer Journey Analytics et que vous avez créé une ou plusieurs [règles de jeu de données](/help/harmonize-data/dataset-rules.md) pour Marketing Campaign Analytics dans un sandbox spécifique :
 
