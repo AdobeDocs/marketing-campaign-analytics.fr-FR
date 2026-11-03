@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # Modèles - Aperçu
@@ -49,7 +49,7 @@ La fonctionnalité de modèle de Marketing Campaign Analytics vous permet de con
 
 Les modèles sont basés sur les données harmonisées que vous créez dans le cadre du workflow d’application.
 
-Un modèle dans Marketing Campaign Analytics est un modèle de machine learning utilisé pour mesurer et prédire un résultat spécifié en fonction des investissements d’un spécialiste marketing. Les points de contact marketing et les données au niveau du résumé peuvent être utilisés comme entrées. Marketing Campaign Analytics vous permet de créer des variantes de modèles en fonction de différents ensembles de variables, dimensions et résultats, tels que les revenus, les unités vendues et les prospects.
+Un modèle dans Marketing Campaign Analytics est un modèle de machine learning utilisé pour mesurer et prédire un résultat spécifié en fonction des investissements marketing. Les points de contact marketing et les données au niveau du résumé peuvent être utilisés comme entrées. Marketing Campaign Analytics vous permet de créer des variantes de modèles en fonction de différents ensembles de variables, dimensions et résultats, tels que les revenus, les unités vendues et les prospects.
 
 Un modèle nécessite :
 
@@ -65,7 +65,7 @@ Un modèle peut éventuellement inclure :
 * Connaissance préalable des contributions marketing provenant d’autres sources telles que l’expérience passée des parties prenantes, les tests incrémentiels, d’autres modèles.
 * Le partage des dépenses, qui utilise le partage des dépenses relatives comme proxy lorsque les données marketing sont clairsemées.
 
-Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être recyclé. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous lui attribuiez un nouveau score manuellement. Le recyclage et la notation sont un processus itératif au fur et à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux à vos objectifs commerciaux.
+Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle est ensuite recyclé. En outre, lorsque des données sont ajoutées au modèle, un score manuel du modèle est requis. Le recyclage et la notation sont un processus itératif au fur et à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux à vos objectifs commerciaux.
 
 ## Modélisation full funnel
 
@@ -81,7 +81,7 @@ Vous utilisez la modélisation funnel complète pour effectuer le modèle sur un
 Les tactiques de funnel supérieures sont souvent moins créditées dans un modèle MMM axé sur la conversion. La modélisation funnel complète permet de comprendre les éléments suivants :
 
 * Quels médias et tactiques marketing ont contribué à l’objectif de la version supérieure de funnel ?
-* Quelles sont les tactiques marketing et les médias qui ont eu un impact indirect sur l’objectif de conversion ? Les poids supérieurs du modèle funnel sont une entrée du modèle inférieur funnel afin de donner un poids supérieur aux médias et aux tactiques marketing, le cas échéant.
+* Quelles sont les tactiques marketing et les médias qui ont eu un impact indirect sur l’objectif de conversion ? Les poids supérieurs du modèle funnel sont une entrée du modèle funnel inférieur qui donne un poids supérieur aux médias et aux tactiques marketing, le cas échéant.
 
 ## Créer des modèles
 
@@ -108,7 +108,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Marketin
 
    Pour trier le tableau sur n’importe quelle colonne dans l’ordre croissant ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) ou décroissant ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg), sélectionnez le titre de la colonne.
 
-   Pour trier ou redimensionner la colonne **[!UICONTROL Name]**, sélectionnez **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dans le menu contextuel, sélectionnez **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** ou **[!UICONTROL Resize column]**. Vous pouvez également pointer sur le séparateur de colonnes pour redimensionner la colonne **[!UICONTROL Name]**.
+   Pour trier ou redimensionner la colonne **[!UICONTROL Name]**, sélectionnez **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dans le menu contextuel, sélectionnez **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** ou **[!UICONTROL Resize column]**. Pour redimensionner la colonne **[!UICONTROL Name]**, passez la souris sur le séparateur de colonnes.
 
    L’état signalé du modèle dépend de l’emplacement d’un modèle dans son cycle de vie. Par exemple, si un modèle est créé, (ré)entraîné avec succès ou non, ou (ré)noté avec succès ou non.
 
@@ -195,6 +195,12 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `10:00 am`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
 
      1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+   * Si le modèle funnel complet est activé, l’option Désactiver l’attribution funnel complète est visible. Vous ne pouvez pas modifier ce paramètre.
+
+   * Pour [rendre les données de score disponibles pour Customer Journey Analytics](build.md#customer-journey-analytics), sélectionnez **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+     Une fois que les scores sont activés pour Customer Journey Analytics, vous ne pouvez pas désactiver ce paramètre à moins que le modèle ne soit supprimé.
 
    * Pour mettre à jour les [champs de rapport d’informations granulaires](/help/models/build.md#granular-insights-reporting-fields), dans la section **[!UICONTROL Granular Insights Reporting Fields]** :
      1. Sélectionnez un ou plusieurs champs harmonisés à partir des **[!UICONTROL _Sélectionner les champs harmonisés_]** sous **[!UICONTROL Includes]**. Les champs harmonisés sélectionnés sont ajoutés au panneau.
