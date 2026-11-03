@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
+source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
 workflow-type: tm+mt
-source-wordcount: '1903'
-ht-degree: 7%
+source-wordcount: '2134'
+ht-degree: 8%
 ---
 # Créer des modèles
 
@@ -51,7 +51,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Marketing Campaign Analytics`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -110,13 +110,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
         1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-     1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+     1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-     1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+     1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
      1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -140,11 +140,11 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
      ![Modèle - funnel de l’étape de facteur](../assets/model-factors-dataset-step-funnel.png)
 
-     * Pour définir les relations de cause à effet, dans le tableau des **[!UICONTROL Causal relationship]**, sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) pour chaque canal (**[!UICONTROL Source]**) si le KPI de conversion supérieur (sélectionné comme **[!UICONTROL Upper funnel conversion]** dans **[!UICONTROL Full funnel modeling]** section) et le KPI de conversion inférieur (sélectionné comme **[!UICONTROL Conversion]** dans **[!UICONTROL Conversion goal]** section) sont influencés par le canal.
+     * Pour définir des relations de cause à effet, dans le tableau des **[!UICONTROL Causal relationship]**, sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) pour chaque canal (**[!UICONTROL Source]**) afin d’indiquer si le canal influence les KPI de conversion supérieur et inférieur.
 
        Vous pouvez sélectionner ![SelectBox](/help/assets/icons/SelectBox.svg) l’en-tête de colonne pour l’indicateur de performance clé de conversion supérieur et l’indicateur de performance clé de conversion inférieur afin de définir rapidement que tous les canaux influencent l’indicateur de performance clé.
 
-     * Lorsque vous avez défini des facteurs, vous définissez des relations de cause à effet. Pour définir les relations de cause à effet de facteur, dans le tableau **[!UICONTROL Factor causal relationships]**, sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) pour chaque facteur (**[!UICONTROL Factor]**) si l’indicateur de performance clé de conversion supérieur (sélectionné comme **[!UICONTROL Upper funnel conversion]** dans **[!UICONTROL Full funnel modeling]** section) et l’indicateur de performance clé de conversion inférieur (sélectionné comme **[!UICONTROL Conversion]** dans **[!UICONTROL Conversion goal]** section) sont influencés par le facteur.
+     * Lorsque vous avez défini des facteurs, vous définissez des relations de cause à effet. Pour définir les relations de causalité des facteurs, dans le tableau **[!UICONTROL Factor causal relationships]**, sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) pour chaque facteur (**[!UICONTROL Factor]**) afin d’indiquer si le facteur influence les indicateurs de performance clés de conversion supérieurs et inférieurs.
 
        Vous pouvez sélectionner ![SelectBox](/help/assets/icons/SelectBox.svg) l’en-tête de colonne pour l’indicateur de performance clé de conversion supérieur et l’indicateur de performance clé de conversion inférieur afin de définir rapidement que tous les facteurs influencent l’indicateur de performance clé.
 
@@ -158,7 +158,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
    * Pour définir l’intervalle de recherche en amont pour le funnel supérieur, saisissez une valeur entre `1` et `52` dans **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the upper funnel conversion]** pour **[!UICONTROL Upper funnel]** dans la section **[!UICONTROL Define lookback window]** .
 
 
-1. Pour définir la fenêtre de formation d’un modèle, à l’adresse **[!UICONTROL Define training window]**, sélectionnez l’endroit où vous souhaitez commencer à noter les conversions.
+1. Pour définir la fenêtre de formation d’un modèle, à l’adresse **[!UICONTROL Define training window]**, sélectionnez où commencer à noter les conversions.
 
    ![Modèle - Définir la fenêtre de formation](/help/assets/model-define-training-window.png)
 
@@ -195,7 +195,7 @@ Dans la section **[!UICONTROL Spend share]** :
 
 * Ce paramètre est recommandé, en particulier dans les scénarios suivants :
   * Un canal ne contient pas suffisamment d’observations (par exemple, une faible fréquence de dépenses, d’impressions ou de clics).
-  * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données peuvent être éparses.
+  * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données sont rares.
 
   >[!NOTE]
   >
@@ -234,7 +234,7 @@ Dans la section **[!UICONTROL Prior knowledge]** :
 
 Dans la section **[!UICONTROL Channel adstock]** , vous pouvez définir des recherches en amont individuelles (effets de report ou d’atténuation) et un retard (temps de réponse retardé) pour chaque canal (canal marketing) que vous avez défini dans votre modèle.
 
-Cette configuration de stock publicitaire de canal permet un contrôle précis de l’impact des différents canaux marketing sur les résultats commerciaux au fil du temps. Vous pouvez également utiliser les paramètres par défaut du système et une configuration unique.
+Cette configuration de stock publicitaire de canal permet un contrôle précis de l’impact des différents canaux marketing sur les résultats commerciaux au fil du temps. Vous pouvez également utiliser les valeurs par défaut du système et une configuration standard.
 
 La configuration des stocks de publicités de canal permet de capturer des nuances spécifiques au canal. Par exemple, l’impact à long terme des campagnes télévisées, l’impact à court terme du référencement payant ou le décalage entre les dépenses des influenceurs et les conversions observables. Testez les paramètres de recherche en amont et de décalage d’Adstock afin de générer des informations plus précises, personnalisées et fiables. En fin de compte, une configuration de canal et de stock peut conduire à des allocations budgétaires plus précises et à de meilleures décisions commerciales.
 
@@ -246,7 +246,7 @@ Pour configurer le stock publicitaire de canal :
 
 * Pour chaque canal (**[!UICONTROL Name]**), définissez une valeur de **[!UICONTROL Lag (weeks)]**, de **[!UICONTROL Min Lookback (weeks)]** et de **[!UICONTROL Max Lookback (weeks)]**. Pour chaque valeur :
 
-  * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
+  * Pour augmenter une valeur, utilisez ![Ajouter](/help/assets/icons/Add.svg) ; pour réduire une valeur, utilisez ![Soustraire](/help/assets/icons/Subtract.svg) ; ou saisissez une valeur manuellement.
 
   Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
 
@@ -278,6 +278,38 @@ Pour planifier la notation et la formation des modèles :
 1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 
 
+### Customer Journey Analytics {#cja}
+
+
+>[!CONTEXTUALHELP]
+>id="model_enable_cja"
+>title="Activer Customer Journey Analytics"
+>abstract="Pour mettre les données de score à la disposition de Customer Journey Analytics pour la création de rapports et l’analyse, activez ce paramètre. Une fois activé, vous devez supprimer le modèle pour désactiver ce paramètre."
+
+Lorsque vous avez droit à Customer Journey Analytics et que vous avez créé une ou plusieurs [règles de jeu de données](/help/harmonize-data/dataset-rules.md) pour Marketing Campaign Analytics dans un sandbox spécifique :
+
+* Deux jeux de données Marketing Campaign Analytics dédiés sont créés dans votre sandbox Experience Platform.
+* Un Customer Journey Analytics [connexion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview), intitulé **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_nom-sandbox _)]**est créé et contient les jeux de données Marketing Campaign Analytics dédiés.
+* Un Customer Journey Analytics [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views), intitulé **[!UICONTROL Marketing Campaign Analytics Insights Data View (_nom-sandbox _)]**est créé en fonction de la connexion.
+
+La connexion et la vue de données sont détenues par le système. Vous ne pouvez pas mettre à jour ni supprimer la connexion ou la vue de données.
+
+Pour rendre les données de score du modèle disponibles pour Customer Journey Analytics via les jeux de données, la connexion et la vue de données mentionnés ci-dessus :
+
+* Sélectionner **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+  Une fois ce paramètre activé, vous ne pouvez le désactiver qu’en supprimant le modèle.
+
+Pour rapporter et analyser rapidement vos données Marketing Campaign Analytics, dans un projet Customer Journey Analytics [espace de travail](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home) :
+
+1. Sélectionnez **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
+1. Sélectionnez la vue de données dédiée **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**à utiliser pour un projet.
+1. Sélectionnez le **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modèle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+   * Sélectionnez **[!UICONTROL Preview]** pour afficher un aperçu.
+
+     ![Aperçu du modèle ](/help/assets/model-cja-enable-template.png)
+   * Sélectionnez **[!UICONTROL Use template]** pour créer un projet basé sur le modèle.
+
 ### Champs de création de rapports d’informations granulaires
 
 La section **[!UICONTROL Granular insights reporting fields]** utilise la fonctionnalité de création de rapports d’incrémentalité granulaire. Cette fonctionnalité vous permet de sélectionner des champs harmonisés pour ventiler les scores d’incrémentalité de conversion et de point de contact.
@@ -286,7 +318,7 @@ La section **[!UICONTROL Granular insights reporting fields]** utilise la foncti
 
 Vous définissez ces champs harmonisés afin de pouvoir analyser en profondeur les rapports de votre modèle à l’aide de colonnes de rapports granulaires au lieu d’avoir à créer des modèles distincts.
 
-Par exemple, vous créez un modèle axé sur le chiffre d’affaires, mais vous êtes également intéressé par les performances des campagnes, des types de médias, des régions et des sources de trafic. Sans la fonctionnalité de création de rapports d’incrémentalité granulaire, vous devriez créer quatre modèles distincts. Grâce à la fonctionnalité de création de rapports d’incrémentalité granulaire, vous pouvez ventiler votre modèle de chiffre d’affaires sur les campagnes, les types de médias, les régions et les sources de trafic.
+Par exemple, vous créez un modèle axé sur le chiffre d’affaires, mais vous êtes également intéressé par les performances des campagnes, des types de médias, des régions et des sources de trafic. Sans la fonctionnalité de rapport d’incrémentalité granulaire, vous devez créer quatre modèles distincts. Grâce à la fonctionnalité de création de rapports d’incrémentalité granulaire, vous pouvez ventiler votre modèle de chiffre d’affaires sur les campagnes, les types de médias, les régions et les sources de trafic.
 
 1. Sélectionnez un ou plusieurs champs harmonisés à partir des **[!UICONTROL _Sélectionner les champs harmonisés_]** sous **[!UICONTROL Includes]**. Les champs harmonisés sélectionnés sont ajoutés au panneau.
 1. Sélectionnez **[!UICONTROL *Champ harmonisé&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer un champ harmonisé du conteneur avec les champs harmonisés sélectionnés.
