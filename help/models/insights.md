@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
-ht-degree: 11%
+source-wordcount: '3122'
+ht-degree: 10%
 ---
 # Informations sur le modèle
 
@@ -154,6 +154,8 @@ Si la [modélisation funnel complète](./overview.md#full-funnel-modeling) est a
 >[!ENDTABS]
 
 Pointez sur un flux pour afficher une fenêtre contextuelle contenant plus de détails sur le flux funnel spécifique.
+
+Le canal associé à la conversion funnel supérieure sélectionnée (tel que défini dans [Conversions](/help/harmonize-data/conversions.md)) est affiché au centre de la visualisation (par exemple : **[!UICONTROL Store]**).
 
 ### Répartition des points de contact
 
