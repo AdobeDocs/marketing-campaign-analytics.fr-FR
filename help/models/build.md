@@ -305,7 +305,7 @@ Pour rapporter et analyser rapidement vos données Marketing Campaign Analytics,
 
 1. Sélectionnez **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
 1. Sélectionnez la vue de données dédiée **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;à utiliser pour un projet.
-1. Sélectionnez le **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modèle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+1. Sélectionnez le **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modèle](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
    * Sélectionnez **[!UICONTROL Preview]** pour afficher un aperçu.
 
      ![Aperçu du modèle &#x200B;](/help/assets/model-cja-enable-template.png)
